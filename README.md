@@ -11,7 +11,7 @@ the opponent's ships.
 
 Step 1: Download/clone.
 ```
-git clone https://github.com/inf123/NodeBattleship
+git clone https://github.com/nicholasroethel/NodeBattleship
 ```
 Step 2: Install dependencies.
 ```
@@ -27,7 +27,7 @@ Step 4: Open http://yourhost:8900/ in your browser to play.
 
 Step 1: Download/clone.
 ```
-git clone https://github.com/inf123/NodeBattleship
+git clone https://github.com/nicholasroethel/NodeBattleship
 ```
 Step 2: Install Docker.
 
