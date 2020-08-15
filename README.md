@@ -22,3 +22,34 @@ Step 3: Start server.
 node server.js
 ```
 Step 4: Open http://yourhost:8900/ in your browser to play.
+
+## Docker
+
+Step 1: Download/clone.
+```
+git clone https://github.com/inf123/NodeBattleship
+```
+Step 2: Install Docker.
+
+Step 3: Build the Docker Container.
+```
+docker build -t battleship .
+```
+
+Step 4: Run the Docker Container.
+```
+docker run -p 8901:8900 battleship
+```
+
+Step 4: Open http://yourhost:8901/ in your browser to play.
+
+
+## Play live on Heroku
+
+Step 1: Visit the site
+
+Go to: https://node-battleship.herokuapp.com/
+
+
+## Notes
+This game was orignally forked from https://github.com/inf123/NodeBattleship. However, it has been modified to work with Docker and to be hosted on Heroku
